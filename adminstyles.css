@@ -1,0 +1,44 @@
+:root {
+    --admin-theme: #090b10;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("Fonts/Poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Arvo";
+    src: url("Fonts/Arvo/Arvo-Bold.ttf");
+}
+
+
+body {
+    font-family: 'Poppins';
+    margin: 0%;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.navbar.fixed-top {
+    background-color: var(--admin-theme);
+}
+
+.navbar-brand {
+    font-size: 1.9rem;
+}
+
+
+
+@media (max-width: 476px) {
+    .navbar-brand {
+        font-size: 1.22rem;
+    }
+    .header {
+        padding: 0.3rem;
+    }
+}
