@@ -30,9 +30,9 @@
       });
     </script>
 
-    <nav class="navbar fixed-top header">
+    <nav class="navbar fixed-top header" style="background-color:black">
       <div>
-        <p class="navbar-brand text-white" href="#">
+        <p class="navbar-brand text-white">
           Alan Turing Club Administrator
         </p>
       </div>
