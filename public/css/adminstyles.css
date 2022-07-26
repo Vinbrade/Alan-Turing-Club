@@ -1,0 +1,126 @@
+:root {
+    --admin-theme: #fff;
+    --admin-accent: #191919;
+}
+
+* {
+    box-sizing: border-box !important;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("Fonts/Poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Arvo";
+    src: url("Fonts/Arvo/Arvo-Bold.ttf");
+}
+
+
+body {
+    font-family: 'Poppins';
+    margin: 0%;
+    background: linear-gradient(180deg, var(--admin-accent) 40%, var(--admin-theme) 30%);
+}
+
+.header {
+    font-family: 'Arvo';
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    background-color: transparent;
+}
+
+
+.main {
+    background-color: transparent;
+    padding: 0.8em;
+}
+
+
+
+.content {
+    margin-top: 2rem;
+    background-color: #fff;
+    border-radius: 1.5rem;
+    min-height: 70vh;   
+    border: 0.2em solid var(--admin-accent);
+}
+
+.log {
+    background-color: var(--admin-accent);
+    color: var(--admin-theme);
+    font-size: 1rem;
+}
+
+.row.d-flex {
+    height: fit-content;
+}
+
+.option {
+    border-radius: 1em;
+    border: 0.1em solid var(--admin-theme);
+    color: var(--admin-theme);
+    background-color: var(--admin-accent);
+    padding: 0.8rem;
+    text-decoration: none;
+    transition: all 80ms ease-out;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.option:active,.option:hover {
+    color: var(--admin-accent) !important;
+    background-color: var(--admin-theme);
+    border: 0.1em solid transparent;
+}
+
+.ev-title {
+    font-size: 1.5rem;
+}
+
+.form-label {
+    font-size: 1.2rem;
+    color: var(--admin-accent);
+}
+
+.form-control, .form-select {
+    background-color: var(--admin-theme);
+    border: 1px solid var(--admin-accent);
+    color: var(--admin-accent);
+}
+
+.form-control:active,
+.form-control:focus,
+.form-select:active,
+.form-select:focus {
+    border: 2px solid var(--admin-accent);
+    box-shadow: 0px 1px 1px 2px var(--admin-accent);
+}
+
+.modal-footer {
+    background-color: var(--admin-accent);
+}
+
+.ev-close {
+    background-color: var(--admin-accent);
+    color: var(--admin-theme);
+    border: 2px solid var(--admin-theme);
+}
+
+.ev-done {
+    background-color: var(--admin-theme);
+    border: 2px solid var(--admin-theme);
+    color: var(--admin-accent);
+}
+
+
+@media (max-width: 768px) {
+    .main, .modal {
+        display: none!important;
+    }
+    body {
+        background: var(--admin-accent);
+    }
+}
