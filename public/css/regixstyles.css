@@ -9,7 +9,7 @@
 }
 
 .hero-img {
-    background: url("Images/micro.jpg");
+    background: url("../images/micro.jpg");
     background-size: cover;
     background-position: center;
     border-bottom-right-radius: 1rem;
@@ -25,7 +25,7 @@
 }
 
 .form-select {
-    background-image: url("Images/caret-down-fill.svg");
+    background-image: url("../images/caret-down-fill.svg");
 }
 
 .form-control:active,
@@ -112,7 +112,7 @@
 }
 
 .sign-in-img {
-    background: url("Images/stars.png");
+    background: url("../images/stars.png");
     background-size: cover;
     background-position: center;
     border-bottom-left-radius: 1rem;

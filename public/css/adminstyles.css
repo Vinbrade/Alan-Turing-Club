@@ -9,12 +9,12 @@
 
 @font-face {
     font-family: "Poppins";
-    src: url("Fonts/Poppins/Poppins-Regular.ttf");
+    src: url("../fonts/Poppins/Poppins-Regular.ttf");
 }
 
 @font-face {
     font-family: "Arvo";
-    src: url("Fonts/Arvo/Arvo-Bold.ttf");
+    src: url("../fonts/Arvo/Arvo-Bold.ttf");
 }
 
 

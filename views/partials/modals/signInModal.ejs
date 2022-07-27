@@ -1,0 +1,115 @@
+<div class="modal fade" id="sign-in" tabindex="-1">
+  <div class="modal-dialog modal-xl mx-sm-2 mx-xl-auto modal-dialog-centered">
+    <div class="modal-content sign">
+      <div class="modal-body p-0">
+        <div class="container-xxl text-white regix-card sign-in">
+          <div class="row position-relative">
+            <span
+              class="position-absolute mt-4 pe-4 d-flex justify-content-end"
+            >
+              <button
+                data-bs-dismiss="modal"
+                style="background-color: transparent; border: none"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  fill="#fff"
+                  class="bi bi-x-lg"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"
+                  />
+                </svg>
+              </button>
+            </span>
+            <div class="col-0 col-sm-4 col-md-6 sign-in-img"></div>
+            <div class="col d-flex sign-card-parent p-5 justify-content-center">
+              <div class="col sign-card">
+                <h2 style="font-family: Arvo">Sign in</h2>
+                <p>Welcome back!</p>
+                <div class="row my-3">
+                  <div class="col d-flex">
+                    <a
+                      href="../../adminlog"
+                      class="reg-sign py-2 px-4 rounded-3 text-decoration-none text-center"
+                      >Admin Sign-in</a
+                    >
+                  </div>
+                </div>
+                <div class="row mb-2 student-row">
+                  <div class="col pt-2 text-center">
+                    <h5>Student Sign-in</h5>
+                  </div>
+                </div>
+                <form
+                  method="post"
+                  novalidate
+                  onsubmit="alphacheck()"
+                  class="row needs-validation"
+                >
+                  <div class="col">
+                    <label for="rollLog" class="form-label lead"
+                      >Roll Number</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="rollLog"
+                      name="roll-log"
+                      maxlength="12"
+                      pattern="[0-9]+"
+                      required
+                    />
+                    <div class="invalid-feedback">Enter your roll number</div>
+                    <div class="row mt-2">
+                      <div class="col">
+                        <label for="passLog" class="form-label h5"
+                          >Password</label
+                        >
+                        <input
+                          type="password"
+                          class="form-control"
+                          id="passLog"
+                          name="pass-log"
+                          required
+                        />
+                        <div class="invalid-feedback">Enter your password</div>
+                      </div>
+                    </div>
+                    <div class="row mt-1">
+                      <a href="#" class="s-link"><i>Forgot Password?</i></a>
+                    </div>
+                    <div class="row mt-3">
+                      <div class="col d-flex">
+                        <button
+                          type="submit"
+                          class="reg-sign py-2 px-5 s-sign rounded-3"
+                        >
+                          Sign in
+                        </button>
+                      </div>
+                    </div>
+                    <div class="row mt-3">
+                      <div class="col">
+                        Not registered yet?
+                        <span
+                          class="s-link"
+                          data-bs-toggle="modal"
+                          data-bs-target="#registration"
+                          >Register here</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

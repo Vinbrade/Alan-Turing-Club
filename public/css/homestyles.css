@@ -11,12 +11,12 @@
 
 @font-face {
     font-family: "Poppins";
-    src: url("Fonts/Poppins/Poppins-Regular.ttf");
+    src: url("../fonts/Poppins/Poppins-Regular.ttf");
 }
 
 @font-face {
     font-family: "Arvo";
-    src: url("Fonts/Arvo/Arvo-Bold.ttf");
+    src: url("../fonts/Arvo/Arvo-Bold.ttf");
 }
 
 
@@ -57,7 +57,7 @@ select::-webkit-scrollbar-thumb,
     position: absolute;
     height: 100%;
     width: 100%;
-    background-image: url("Images/elder.jpg");
+    background-image: url("../images/elder.jpg");
     background-size: cover;
     background-position: center;
 }
