@@ -1,0 +1,48 @@
+<div class="modal fade " id="Members" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1">
+    <div class="modal-dialog modal-lg modal-dialog-scrollable modal-dialog-centered">
+    <div class="modal-content">
+        <div class="modal-header d-flex justify-content-center">
+          <h5 class="ev-title">Members</h5>
+        </div>
+        <div class="modal-body">
+          <form action="#" method="post">
+            <div class="row">
+                    <label for="fil-year" class="form-label">Filter by class and year</label>
+                    <div class="col-5">
+                        <select class="form-select" name="filter-year" id="fil-year" required>
+                            <option disabled selected value="">Select year</option>
+                            <option value="1">I</option>
+                            <option value="2">II</option>
+                            <option value="3">III</option>
+                        </select>
+                    </div>
+                    <div class="col-5">
+                    <select class="form-select" name="filter-class" id="fil-class" size="1">
+                        <option disabled selected value="">Select class</option>
+                        <option value="MECS">MECS</option>
+                        <option value="MSCS">MSCS</option>
+                        <option value="MPCS">MPCS</option>
+                        <option value="MPCS">MPC</option>
+                        <option value="BTMC">BTMC</option>
+                        <option value="BZC">BZC</option>
+                        <option value="BCOMCA">BCOM CA</option>
+                        <option value="BCOMGEN">BCOM GEN</option>
+                        <option value="BA">BA</option>                                                
+                        <option value="BBA">BBA</option>
+                    </select>
+                </div>
+                <div class="col-2">
+                    <button type="submit" class="btn btn-dark p-2">Go</button>
+                </div>
+            </div>
+            <div class="row">
+                <table></table>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="ev-close rounded-1 p-2" data-bs-dismiss="modal">Close</button>
+        </div>
+        </form>
+      </div>
+    </div>
+</div>

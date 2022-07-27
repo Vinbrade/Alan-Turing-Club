@@ -1,0 +1,33 @@
+<div class="modal fade " id="createEvent" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header d-flex justify-content-center">
+          <h5 class="ev-title">Create an Event</h5>
+        </div>
+        <div class="modal-body">
+          <form action="#" method="post">
+            <div class="row">
+                <div class="col">
+                    <label for="EvTitle" class="form-label">Name of the Event</label>
+                    <input type="text" class="form-control" name="event-title" id="EvTitle">
+                </div>
+                <div class="col">
+                    <label for="EvDate" class="form-label">Date</label>
+                    <input type="date" class="form-control" name="event-date" id="EvDate">
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col">
+                <label for="EvDesc" class="form-label">Event Description</label>
+                <textarea name="event-desc" id="EvDesc" rows="5" class="form-control"></textarea>
+            </div>
+        </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="ev-close rounded-1 p-2" data-bs-dismiss="modal">Close</button>
+          <button type="submit" class="ev-done rounded-1 p-2 ms-3">Done</button>
+        </div>
+    </form>
+      </div>
+    </div>
+</div>
